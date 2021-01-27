@@ -21,6 +21,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 
 form input, form button {
@@ -49,7 +50,7 @@ form button:hover {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 40%;
     list-style: none;
 }
 
@@ -66,6 +67,8 @@ form button:hover {
 
 .todo li {
     flex: 1;
+    padding-left: 8px;
+    color:rgb(10, 112, 10)
 }
 
 .trash-btn,
@@ -83,6 +86,7 @@ form button:hover {
 
 .todo-item {
     padding: 0rem, 0.5rem;
+    min-width: 200px;
 }
 
 .fa-trash, .fa-check {
